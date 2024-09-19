@@ -1,8 +1,8 @@
-import Navbar from './Navbar'
+import TopPage from './TopPage';
 
 function App(){
  return(
-  <Navbar></Navbar>
+  <TopPage></TopPage>
  )
 }
 

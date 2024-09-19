@@ -1,17 +1,37 @@
 body{
   color: white;
+  background-image: url('assets/Background-pattern.png');
+  background-size: cover;
+  background-color: black;
+  margin: 0px;
 }
 
 header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(27, 27, 27);
 }
 
-div{
- background-color: rgb(29, 29, 29);
+section{
+  display: flex;
+}
+
+#rgt, #lft{
+  width: 50%;
 }
 
 header > h1{
   margin: 0%;
+}
+
+.Btn{
+  padding: 8px;
+  width: 170px;
+  border-radius: 7px;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
 }
