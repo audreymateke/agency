@@ -29,6 +29,7 @@ function HeroSection(){
             <span>·Creative Visual Design</span>
              <span>·Full-Stack Development</span>
                <span>·Branding</span>
+               
                </div>
                </>
       

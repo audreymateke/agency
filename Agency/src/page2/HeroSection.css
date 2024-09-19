@@ -1,83 +1,83 @@
 .hero-section {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    background-color: #1e1e1e;
-    color: #fff;
-    padding: 40px;
-    text-align: left;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 40px;
+  text-align: left;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
 }
 
 .content h5 {
-    font-size: 14px;
-    font-weight: 300;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    color: #888;
+  font-size: 14px;
+  font-weight: 300;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #888;
 }
 
 .content h1 {
-    font-size: 40px;
-    font-weight: 400;
-    padding-left: 20px;
-    color: antiquewhite;
-    margin: 0;
-    margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 20px;
+  color: antiquewhite;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .content p {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    padding-left: 20px;
-    max-width: 800px;
-    overflow: hidden;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  max-width: 800px;
+  overflow: hidden;
 }
 
 .image-container {
-    margin: 20px 0;
-
+  margin: 20px 0;
 }
 
 .image-container img {
-    display: flex;
-    width: 100%;
-    float: left;
-    margin-right: 20px;
-    max-width: 40px;
-    height: auto;
-    border-radius: 8px;
+  display: flex;
+  width: 100%;
+  float: left;
+  margin-right: 20px;
+  max-width: 40px;
+  height: auto;
+  border-radius: 8px;
 }
 .hero-section img {
-    max-width: 40%;
-    height: auto;
-    margin-right: 20px;
-  }
-.span  {
- font-size: 24px;
-font-weight: bold;
-position: relative;
-    animation: moveText 5s linear infinite;
-    display: flex;
-     gap: 10px;
-    margin-top: 20px;
+  max-width: 40%;
+  height: auto;
+  margin-right: 20px;
+}
+.services {
+font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  position: relative;
+  animation: moveText 9s infinite;
+  display: flex;
+  gap: 40px;
+  margin-top: 0px;
 }
 
-.services  {
-    background-color: #6a5acd;
-    background-size: contain;
-    padding: 12px 12px;
-    color: #100f15;
-    font-size: 14px;
+.services {
+  background-color: #6a5acd;
+  background-size: contain;
+  padding: 12px 12px;
+  color: #100f15;
+  font-size: 14px;
 }
 @keyframes moveText {
-    0% {
-        left: -100%;
-    }
-    100% {
-        left: 100%;
-    }
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
 }

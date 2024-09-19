@@ -1,6 +1,6 @@
 body{
   color: white;
-  background-image: url('assets/Background-pattern.png');
+  background-image: url('./assets/Background pattern.png');
   background-size: cover;
   background-color: black;
   margin: 0px;
