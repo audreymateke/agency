@@ -40,7 +40,3 @@ header > h1{
   display: flex;
   justify-content: space-between;
 }
-
-#F_btn{
-  background-color: mediumpurple;
-}

@@ -1,4 +1,5 @@
-import TopPage from './TopPage';
+
+import HeroSection from './page2/HeroSection';
 
 function App(){
 
@@ -7,21 +8,7 @@ function App(){
     const min = time.getMinutes();
 
  return(
- <>
-  <header>
-            <div>
-                <span><img src='assets/Logo-1.png'/></span>
-                <text>Evo Creatives</text>
-            </div>
-            <div><p>Calgary, Canada {hrs + ' : ' + min} PM</p></div>
-            <div>
-                <text>Menu</text>
-                <span><img src=''/></span>
-            </div>
-        </header>
-        <TopPage></TopPage>
- </>
- 
+  <TopPage></TopPage>
  )
 }
 
