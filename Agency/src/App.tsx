@@ -22,6 +22,7 @@ function App(){
             </div>
         </header>
         <TopPage></TopPage>
+
   <HeroSection/>
  </>
  )
