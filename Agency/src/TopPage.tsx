@@ -1,23 +1,11 @@
 import './index.css'
-const time = new Date()
-const hrs = time.getHours();
-const min = time.getMinutes();
+import Hero_img from './assets/Hero_Desktop_Img.png'
 
 
 function TopPage(){
     return(
        <>
-        <header>
-            <div>
-                <span><img src='assets/Logo-1.png'/></span>
-                <text>Evo Creatives</text>
-            </div>
-            <div><p>Calgary, Canada {hrs + ' : ' + min} PM</p></div>
-            <div>
-                <text>Menu</text>
-                <span><img src=''/></span>
-            </div>
-        </header>
+       
         <section>
             <div id='rgt'>
                 <h1>Your Partner in <br/> Digital Innovation</h1>
@@ -25,14 +13,19 @@ function TopPage(){
                 creativity with technology to deliver impactful solutions.Partner<br/>
                 with us to elevate your brand and achieve your goals</p>
                 <div className='btns'>
-                    <button className='Btn'>Get Started</button>
-                    <button className='Btn'>Watch the process</button>
+                    <button className='Btn' id='F_btn'>Get Started</button>
+                    <button className='Btn' id='S_btn'>Watch the process</button>
                 </div>
             </div>
             <div id='lft'>
-                <img src=''/>
+                <img src={Hero_img} alt='hero_section'/>
             </div>
         </section>
+        <footer>
+            <small>Trusted by over 100 businesses globally</small>
+            <div>
+            </div>
+        </footer>
        </>
     )
 }
