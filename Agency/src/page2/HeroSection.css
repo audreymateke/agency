@@ -73,12 +73,19 @@
     font-size: 14px;
 }
 
-@keyframes moveText {
-    0% {
-        left: -100%;
-    }
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    width: 100%;
+    margin: 0px;
+}
 
-    100% {
-        left: 100%;
-    }
+li{
+    font-weight: lighter;
+    font-size: large;
+    margin: 0px;
+}
+
+@keyframes moveText {
+   
 }

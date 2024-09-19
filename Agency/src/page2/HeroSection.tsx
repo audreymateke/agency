@@ -23,11 +23,14 @@ function HeroSection() {
                 </div>
 
             </div>
+
             <div className="services">
-                <span>·Product Design</span>
-                <span>·Creative Visual Design</span>
-                <span>·Full-Stack Development</span>
-                <span>·Branding</span>
+                <ul>
+                    <li>Product Design</li>
+                    <li>Creative Visual Design</li>
+                    <li>Full-Stack Development</li>
+                    <li>Branding</li>
+                </ul>
             </div>
         </>
 
