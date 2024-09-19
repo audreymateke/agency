@@ -28,7 +28,7 @@ function HeroSection(){
             <span>·Product Design</span>
             <span>·Creative Visual Design</span>
              <span>·Full-Stack Development</span>
-               <span>·Branding</span>
+               <span>·Branding.</span>
                
                </div>
                </>
