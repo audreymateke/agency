@@ -57,8 +57,8 @@ header > h1{
 }
 
 .Btn{
-  padding: 8px;
-  width: 170px;
+  padding: 13px;
+  width: 200px;
   border-radius: 7px;
 }
 
@@ -75,6 +75,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 border: none;
+font-size: medium;
 }
 
 button > img{
@@ -88,4 +89,8 @@ button > img{
 
 #F_btn{
   background-color: mediumpurple;
+}
+
+footer{
+  transform: translateY(800%);
 }
