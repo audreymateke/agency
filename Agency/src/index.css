@@ -15,10 +15,22 @@ header{
 
 section{
   display: flex;
+  margin-top: 40px;
 }
 
 #rgt, #lft{
   width: 50%;
+}
+
+h1{
+  font-size: xxx-large;
+  margin: 15px 0px 15px 0px;
+}
+
+#rgt > p{
+  font-size: large;
+  margin-bottom: 25px;
+  font-weight: lighter;
 }
 
 #lft > img{
@@ -37,6 +49,7 @@ section{
 #lft{
   display: flex;
   margin: 10px 10px 0px 0px;
+
 }
 
 header > h1{
@@ -52,4 +65,27 @@ header > h1{
 .btns{
   display: flex;
   justify-content: space-between;
+}
+
+#arrow{
+  width: 17px;
+}
+button{
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+}
+
+button > img{
+  margin-left: 10px;
+}
+
+#S_btn{
+  background-color: black;
+  color: white;
+}
+
+#F_btn{
+  background-color: mediumpurple;
 }

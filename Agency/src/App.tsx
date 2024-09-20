@@ -14,13 +14,13 @@ function App() {
         <>
             <header>
                 <div id='lgcn'>
-                    <span><img src={logo}  id='logo'/></span>
+                    <span><img src={logo} alt='logo'  id='logo'/></span>
                     <text>Evo Creatives</text>
                 </div>
                 <div><p>Calgary, Canada {hrs + ' : ' + min} PM</p></div>
                 <div id='menu'>
                     <text>Menu</text>
-                    <span><img src={menu_icon} id='menu_icon'/></span>
+                    <span><img src={menu_icon} alt='menu' id='menu_icon'/></span>
                 </div>
             </header>
             <TopPage></TopPage>
