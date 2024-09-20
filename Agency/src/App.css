@@ -1,0 +1,24 @@
+#logo{
+    width: 20px;
+    align-self: center;
+    margin-right: 5px;
+}
+
+#lgcn{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+#menu_icon{
+    width: 15px;
+    align-self: center;
+    margin-left: 5px;
+    
+}
+
+#menu{
+    display: flex;
+    margin: 10px;
+}
