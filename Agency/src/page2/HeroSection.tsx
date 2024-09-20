@@ -5,7 +5,7 @@ function HeroSection() {
         <>
             <div className="hero-section">
                 <div className="content">
-                    <h5>We can't design on Canva</h5>
+                    <h5>We can't design on Canva.</h5>
                     <h1>Why you should choose Evocreatives.</h1>
                     <p>
                         At Evocreatives, we blend innovation with expertise to bring your vision to life.
