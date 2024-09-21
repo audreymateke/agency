@@ -1,5 +1,6 @@
 import HeroSection from './page2/HeroSection';
 import TopPage from './TopPage';
+import Services from './page3/Services';
 import logo from './assets/Icon mark 1.png'
 import menu_icon from './assets/menu-icon.png'
 import './App.css'
@@ -25,6 +26,8 @@ function App() {
             </header>
             <TopPage></TopPage>
             <HeroSection />
+            
+            <Services></Services>
         </>
     )
 }

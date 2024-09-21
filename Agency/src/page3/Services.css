@@ -1,0 +1,72 @@
+.containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #130e0e;
+    color: white;
+  }
+  
+  .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .titles h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .title h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+  }
+  
+  .service {
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon {
+    width: 60px;
+    height: 60px;
+    background-color: #484848;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .service ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .service li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }

@@ -24,7 +24,7 @@ function HeroSection() {
 
             </div>
 
-            <div className="services">
+            <div className="serVices">
                 <ul>
                     <li>Product Design</li>
                     <li>Creative Visual Design</li>
