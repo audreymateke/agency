@@ -4,6 +4,7 @@ import Services from './page3/Services';
 import logo from './assets/Icon mark 1.png'
 import menu_icon from './assets/menu-icon.png'
 import './App.css'
+import NewD from './page4/NewD'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
             <HeroSection />
             
             <Services/>
+            <NewD></NewD>
         </>
     )
 }
