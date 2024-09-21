@@ -1,14 +1,14 @@
 
 import './Services.css';
 
-function App() {
+function  Services() {
   return (
-    <div className="containers">
-      <div className="titles">
+    <div className="containerss">
+      <div className="titless">
         <h1>OUR SERVICES</h1>
         <h2>Services we offer</h2>
       </div>
-      <div className="services">
+      <div className="servicess">
         <div className="service">
           <div className="icon"></div>
           <h3>Branding</h3>
@@ -62,4 +62,4 @@ function App() {
   );
 }
 
-export default App;
+export default Services;

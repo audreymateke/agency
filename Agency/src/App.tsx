@@ -24,10 +24,11 @@ function App() {
                     <span><img src={menu_icon} alt='menu' id='menu_icon'/></span>
                 </div>
             </header>
+
             <TopPage></TopPage>
             <HeroSection />
             
-            <Services></Services>
+            <Services/>
         </>
     )
 }
