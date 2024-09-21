@@ -5,8 +5,8 @@ function  Services() {
   return (
     <div className="containerss">
       <div className="titless">
-        <h1>OUR SERVICES</h1>
-        <h2>Services we offer</h2>
+        <h5>OUR SERVICES</h5>
+        <h1>Services we offer</h1>
       </div>
       <div className="servicess">
         <div className="service">
@@ -16,8 +16,9 @@ function  Services() {
             <li>Brand Story</li>
             <li>Visual Identity</li>
             <li>Brand Guidelines</li>
-          </ul>
-          <ul>
+            </ul>
+            <ul className="side">
+            
             <li>Market Positioning</li>
             <li>Brand Management</li>
             <li>S. Media Management</li>
@@ -30,8 +31,7 @@ function  Services() {
             <li>SaaS</li>
             <li>EduTech</li>
             <li>FinTech</li>
-          </ul>
-          <ul>
+        
             <li>FoodTech</li>
           </ul>
         </div>
@@ -42,8 +42,7 @@ function  Services() {
             <li>UI/UX Design</li>
             <li>Mobile App Design</li>
             <li>Websites Design</li>
-          </ul>
-          <ul>
+          
             <li>Full-stack Dev</li>
             <li>Graphic Design</li>
           </ul>
