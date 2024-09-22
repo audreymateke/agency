@@ -1,8 +1,8 @@
-import { ReactNode } from "react";
+import { ReactNode, ReactSVG } from "react";
 import './card.css'
 
 
-function Card(props: { speciality_1: ReactNode, speciality_2: ReactNode, speciality_3: ReactNode, speciality_4: ReactNode, speciality_5: ReactNode, header: ReactNode }) {
+function Card(props: { speciality_1: ReactNode, speciality_2: ReactNode, speciality_3: ReactNode, speciality_4: ReactNode, speciality_5: ReactNode, header: ReactNode, image: ReactSVG }) {
 
   return (
     <section id="card">
@@ -18,7 +18,7 @@ function Card(props: { speciality_1: ReactNode, speciality_2: ReactNode, special
         </ul>
       </div>
       <div id="left">
-        <img src=""></img>
+        {<img src={props.image} alt=""></img>}
       </div>
     </section>
   )

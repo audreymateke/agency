@@ -13,6 +13,7 @@ function NewD(){
                speciality_4={item.speciality_4}
                speciality_5={item.speciality_5}
                header={item.header}
+               image={item.image}
                ></Card>
             ))}
         </div>
