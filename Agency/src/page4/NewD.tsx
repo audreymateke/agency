@@ -3,21 +3,22 @@ import Data from './data'
 
 function NewD(){
 
-const items = Data.map(item => {
-        return(
-            <>
-            <p></p>
-            <h1></h1>
-            <Card
-            {...item}
-            ></Card>
-            </>
-            
-        )
-    })
+    return (
+        <div>
+            {Data.map(item => (
+               <Card 
+               speciality_1={item.speciality_1}
+               speciality_2={item.speciality_2}
+               speciality_3={item.speciality_3}
+               speciality_4={item.speciality_4}
+               speciality_5={item.speciality_5}
+               header={item.header}
+               ></Card>
+            ))}
+        </div>
+    )
 
-    {items}
-   
+    
 
 }
 

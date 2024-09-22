@@ -1,0 +1,20 @@
+#listings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+#card{
+    width: 80%;
+    background-color: brown;
+    display: flex;
+    border-radius: 20px;
+    transform: translateX(13%);
+}
+
+#right{
+    width: 50%;
+    height: 100;
+}
