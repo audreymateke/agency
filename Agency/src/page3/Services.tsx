@@ -50,9 +50,9 @@ function  Services() {
           <div className="icon"></div>
           <h3>Idea Implementation</h3>
           <ul>
-            <li>Personal Booking</li>
-            <li>Consultancy Sessions</li>
-            <li>Strategy Development</li>
+            <li>Personal Booking.</li>
+            <li>Consultancy Sessions.</li>
+            <li>Strategy Development.</li>
           </ul>
         </div>
       </div>

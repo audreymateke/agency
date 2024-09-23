@@ -1,7 +1,7 @@
 import Card from './card'
 import Data from './data'
 
-function NewD(){
+function NewD() {
 
 const items = Data.map(item => {
         return(
